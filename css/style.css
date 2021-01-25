@@ -18,6 +18,10 @@ body {
   width: 70%;
 }
 
+.container.c-55 {
+  width: 55%;
+}
+
 .overlay {
   position: relative;
 }
@@ -43,10 +47,18 @@ a {
 
 h1 {
   font-size: 55px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 50px;
 }
 
 p, a {
   font-size: 18px;
+  font-weight: 400;
 }
 
 small {
@@ -166,6 +178,34 @@ header li:not(:last-child) {
   margin-bottom: 45px;
 }
 /* /jumbotron */
+
+/* home-primary-sec */
+#home-primary-sec {
+  background-color: #f5f8fa;
+  padding-top: 60px;
+}
+
+
+.primary-top {
+  text-align: center;
+}
+
+.prymary-top img {
+  height: 215px;
+}
+
+.primary-box {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
+  margin: 60px auto;
+}
+
+.primary-middle {
+  height: 390px;
+}
+
+/* /home-primary-sec */
 
 /* /main */
 
