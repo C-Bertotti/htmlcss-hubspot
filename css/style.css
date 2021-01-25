@@ -13,12 +13,26 @@ body {
 .container {
   margin: auto;
 }
+
 .container.c-70 {
   width: 70%;
 }
 
-.container.c-70 {
-  width: 60%;
+.overlay {
+  position: relative;
+}
+
+.jumbo-ov::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 12%;
+  background-color: #ADECE5;
+  border-width: 2px 0;
+  border-color: #33475b;
+  border-style: solid;
 }
 /* /general */
 
@@ -26,12 +40,30 @@ body {
 a {
   text-decoration: none;
 }
+
+h1 {
+  font-size: 55px;
+}
+
+p, a {
+  font-size: 18px;
+}
+
+small {
+  font-size: 15px;
+}
 /* /Typo */
 
 /* buttons */
 .nav-btn {
   padding: 15px 12px;
   border-radius: 5px;
+}
+
+.btn {
+  padding: 30px 50px;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 .btn-bordered {
@@ -46,10 +78,15 @@ a {
 /* /buttons */
 
 /* header */
+header > div {
+  padding: 30px 0;
+}
+
 .header-nav a {
   color: #33475b;
 }
-header li {
+
+.header-nav, .top-right-nav, header li {
   display: inline-block;
 }
 
@@ -59,12 +96,11 @@ header li:not(:last-child) {
 
 .header-top {
   background-color: #f4f9fE;
-  padding: 30px 0;
+  border-bottom: 1px solid #33475b;
 }
 
-.header-top nav {
-  display: inline-block;
-  width: 48%;
+.header-top nav{
+  width: 50%;
 }
 
 .top-left-nav li{
@@ -81,7 +117,7 @@ header li:not(:last-child) {
   padding: 0 8px;
 }
 
-.top-right-nav {
+.top-right-nav, .bottom-right-nav {
   text-align: right;
 }
 
@@ -89,11 +125,48 @@ header li:not(:last-child) {
   color: #00A4BF;
 }
 
+.bottom-left-nav {
+  width: 15%;
+}
 
+.bottom-right-nav {
+  width: 85%;
+}
 
+#main-logo {
+  width: 85%;
+}
+
+.bottom-right-nav, .bottom-left-nav {
+  vertical-align: middle;
+}
+
+.bottom-right-nav li i {
+  padding-left: 20px;
+}
 /* /header */
 
 /* main */
+/* jumbotron */
+#home-jumbotron-sec {
+  background-image: url("../img/jumbotron.png");
+  height: 700px;
+  background-size: 125% cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.jumbo-text {
+  width: 50%;
+  position: absolute;
+  top: 50px;
+}
+
+.jumbo-text * {
+  margin-bottom: 45px;
+}
+/* /jumbotron */
+
 /* /main */
 
 /* footer */
