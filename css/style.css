@@ -8,12 +8,52 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
+.container {
+  margin: auto;
+}
+.container.c-70 {
+  width: 70%;
+}
+
+.container.c-70 {
+  width: 60%;
+}
 /* /general */
 
 /* Typo */
 /* /Typo */
 
 /* header */
+header, .header-nav a {
+  color: #33475b;
+}
+
+.header-nav a {
+  text-decoration: none;
+}
+
+.header-nav li {
+  display: inline-block;
+}
+
+.header-top {
+  background-color: #f4f9fE;
+}
+
+.top-left-nav li{
+  padding: 5px 30px;
+}
+
+.top-left-nav li:first-child{
+  padding-left: 0;
+  border-right: 1px solid #899397;
+}
+
+.top-left-nav span {
+  padding: 0 5px;
+}
+
 /* /header */
 
 /* main */
