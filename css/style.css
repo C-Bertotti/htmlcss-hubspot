@@ -7,6 +7,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  color: #33475b;
 }
 
 .container {
@@ -22,23 +23,48 @@ body {
 /* /general */
 
 /* Typo */
-/* /Typo */
-
-/* header */
-header, .header-nav a {
-  color: #33475b;
-}
-
-.header-nav a {
+a {
   text-decoration: none;
 }
+/* /Typo */
 
-.header-nav li {
+/* buttons */
+.nav-btn {
+  padding: 15px 12px;
+  border-radius: 5px;
+}
+
+.btn-bordered {
+  border: 1px solid #ff7a59;
+  color: #ff7a59;
+}
+
+.btn-orange {
+  background-color: #ff7a59;
+  color: #fff;
+}
+/* /buttons */
+
+/* header */
+.header-nav a {
+  color: #33475b;
+}
+header li {
   display: inline-block;
+}
+
+header li:not(:last-child) {
+  margin-right: 30px;
 }
 
 .header-top {
   background-color: #f4f9fE;
+  padding: 30px 0;
+}
+
+.header-top nav {
+  display: inline-block;
+  width: 48%;
 }
 
 .top-left-nav li{
@@ -48,11 +74,22 @@ header, .header-nav a {
 .top-left-nav li:first-child{
   padding-left: 0;
   border-right: 1px solid #899397;
+  margin: 0;
 }
 
 .top-left-nav span {
-  padding: 0 5px;
+  padding: 0 8px;
 }
+
+.top-right-nav {
+  text-align: right;
+}
+
+.top-right-nav .fas {
+  color: #00A4BF;
+}
+
+
 
 /* /header */
 
