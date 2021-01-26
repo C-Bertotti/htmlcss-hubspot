@@ -14,11 +14,13 @@ body {
   margin: auto;
 }
 
-.container.c-70 {
+.container.c-1350 {
+  max-width: 1350px;
   width: 70%;
 }
 
-.container.c-55 {
+.container.c-1150 {
+  max-width: 1150px;
   width: 55%;
 }
 
