@@ -162,10 +162,10 @@ header li:not(:last-child) {
 /* jumbotron */
 #home-jumbotron-sec {
   background-image: url("../img/jumbotron.png");
-  height: 700px;
-  background-size: 125% cover;
-  background-position: right;
+  height: 690px;
+  background-position: bottom right;
   background-repeat: no-repeat;
+  background-color: #FFF5EF;
 }
 
 .jumbo-text {
@@ -190,7 +190,7 @@ header li:not(:last-child) {
   text-align: center;
 }
 
-.prymary-top img {
+.primary-top img {
   height: 215px;
 }
 
