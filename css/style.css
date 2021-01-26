@@ -64,13 +64,21 @@ h1, h2, h3, h4 {
   font-weight: 700;
 }
 
-p, a {
+p, a, li {
   font-size: 15px;
   font-weight: 400;
 }
 
+p {
+  line-height: 2;
+}
+
 small {
   font-size: 13px;
+}
+
+hr {
+  border: 1px solid #899397;
 }
 /* /Typo */
 
@@ -204,8 +212,12 @@ section {
 /* home-primary-sec */
 #home-primary {
   background-color: #f5f8fa;
+  padding-bottom: 50px;
 }
 
+#home-primary > div:not(:last-child) {
+  margin-bottom: 50px;
+}
 
 .primary-top {
   text-align: center;
@@ -219,14 +231,13 @@ section {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
-  margin: 50px auto;
 }
 
 .primary-middle {
   padding: 70px 125px;
 }
 
-.primary-middle-left, .primary-middle-right {
+.left-floating {
   float: left;
 }
 
@@ -240,7 +251,7 @@ section {
   width: calc(100%/3 * 2);
 }
 
-.primary-middle-left img {
+.primary-box img {
   height: 100px;
   margin-bottom: 30px;
 }
@@ -256,21 +267,84 @@ section {
 
 .primary-middle-right hr {
   width: 368px;
-  border: 1px solid #899397;
 }
 
 .primary-middle-right li {
   display: inline-block;
-  list-style: none;
   margin-right: 25px;
 }
 
-.primary-box li i {
-color: #ff7a59;
-padding-right: 20px;
+.primary-middle-right li i {
+  padding-right: 25px;
 }
 
-/* /home-primary-sec */
+.primary-box li {
+  list-style: none;
+}
+
+.primary-box i {
+  color: #ff7a59;
+  padding-right: 20px;
+}
+
+.primary-bottom-col {
+  width: calc(100% / 3 - 40px);
+  float: left;
+  padding: 25px 35px;
+  text-align: center;
+}
+
+.primary-bottom-col p {
+  margin-bottom: 70px;
+}
+
+.primary-bottom-col ul {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.primary-bottom-col li i {
+  padding-right: 15px;
+}
+
+.primary-bottom-col-center {
+  margin: 0 60px;
+}
+/* /home-primary */
+
+/* home-community */
+#home-community {
+  height: 800px;
+  background-image: linear-gradient(45deg ,#00a4bd,#00bda5);
+  color: white;
+  text-align: center;
+}
+
+.com-wrapper-row:not(:last-child) {
+  border-bottom: 1px solid #fff;
+}
+
+.community-item {
+  width: calc(100% / 4);
+  padding: 20px 0;
+}
+
+.community-item:not(:last-child) {
+  border-right: 1px solid #fff;
+}
+
+.community-item img {
+  height: 40px;
+}
+
+.community-item strong {
+  font-size: 45px;
+}
+
+.plus
+/* /home-community */
+
+
 
 /* /main */
 
