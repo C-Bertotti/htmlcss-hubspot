@@ -31,6 +31,10 @@ body {
   clear: both;
   display: block;
 }
+
+.right-text {
+  text-align: right;
+}
 /* /general */
 
 /* Typo */
@@ -204,7 +208,7 @@ section {
   width: 50%;
 }
 
-.jumbo-text * {
+.jumbo-text *, {
   margin-bottom: 45px;
 }
 /* /jumbotron */
@@ -361,30 +365,47 @@ section {
 /* /home-community */
 
 /* home-customers */
-
+/* top */
 #home-customers .cust-top {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 0 100px;
 }
 
 .cust-top h2 {
   font-size: 55px;
 }
 
-.cust-col-left {
+.cust-top-col-left {
   width: 20%;
 }
 
-.cust-col-right {
+.cust-top-col-right {
   width: 65%;
   float: right;
 }
 
-.cust-col-right img {
+.cust-top-col-right img {
   width: calc( 25% - 4px );
   padding: 20px 15px;
   vertical-align: middle;
 }
+/* /top */
+/* bottom */
+.cust-bottom {
+  margin-top: 60px;
+}
+.cust-bottom > div  {
+  width: 50%
+}
+
+.cust-bottom-left * {
+  margin-top: 50px;
+}
+
+.customer-img {
+  width: 60%;
+}
+
+/* /bottom */
 /* /home-customers */
 
 
