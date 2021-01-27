@@ -92,6 +92,12 @@ hr {
   border-radius: 5px;
 }
 
+.footer-btn {
+  color: #2d3e50;
+  background-color: #cbd6e2;
+  border: 1px solid #fff;
+}
+
 .btn {
   padding: 25px 40px;
   border-radius: 5px;
@@ -149,10 +155,6 @@ header li:not(:last-child) {
   padding: 0 8px;
 }
 
-.top-right-nav, .bottom-right-nav {
-  text-align: right;
-}
-
 .top-right-nav .fas {
   color: #00A4BF;
 }
@@ -208,7 +210,7 @@ section {
   width: 50%;
 }
 
-.jumbo-text *, {
+.jumbo-text * {
   margin-bottom: 45px;
 }
 /* /jumbotron */
@@ -393,25 +395,56 @@ section {
 .cust-bottom {
   margin-top: 60px;
 }
-.cust-bottom > div  {
-  width: 50%
-}
 
-.cust-bottom-left * {
-  margin-top: 50px;
+.cust-bottom > div  {
+  width: 50%;
 }
 
 .customer-img {
-  width: 60%;
+  width: 55%;
 }
 
+.cust-bottom-left * {
+  margin-top: 45px;
+}
 /* /bottom */
 /* /home-customers */
-
-
-
-
 /* /main */
 
 /* footer */
+footer {
+  background-color: #2d3e50;
+}
+
+.top-footer > div {
+  width: 25%;
+}
+
+footer h4 {
+  color: #fff;
+  text-transform: none;
+}
+
+footer li {
+  list-style: none;
+  margin: 25px 0;
+}
+
+footer a {
+  color: #cbd6e2;
+  display: inline-block;
+}
+
+.social-list li {
+  display: inline-block;
+  margin: 0 25px 0 0;
+}
+
+.social-list i {
+  font-size: 20px;
+}
+
+
+
+
 /* /footer */
